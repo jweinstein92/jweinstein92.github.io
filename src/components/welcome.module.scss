@@ -1,0 +1,62 @@
+@import "../colors";
+
+.welcome {
+  color: $grey-text;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.welcome > div {
+  max-width: 45%;
+}
+
+.welcome > div:first-of-type {
+  text-align: left;
+}
+
+.welcome > div:last-of-type {
+  text-align: right;
+}
+
+.welcome h2 {
+  color: $orange;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+}
+
+.welcome .intro div {
+  line-height: 20px;
+}
+
+.welcome .about .table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 24px;
+}
+
+.welcome .about .table > span:first-of-type {
+  font-weight: bold;
+  margin-right: 24px;
+}
+
+.welcome .about .table i {
+  font-size: 20px;
+  color: $orange;
+}
+
+.welcome .about .table .resume i {
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .welcome {
+    flex-direction: column;
+    > div { max-width: 100%; }
+  }
+
+  .welcome .about {
+    text-align: left !important;
+  }
+}

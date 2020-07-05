@@ -1,0 +1,82 @@
+@import "../colors";
+
+.experience {
+  align-items: start;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.experience h2 {
+  color: $orange;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+}
+
+.experience .professional,
+.experience .education {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience .piece {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 48px;
+  width: 100%;
+}
+
+.experience .piece > div {
+  text-align: left;
+}
+
+.experience .piece > div:last-of-type {
+  max-width: 50%;
+  width: 50%;
+}
+
+.experience .company,
+.experience .university,
+.experience .position,
+.experience .degree,{
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.experience .date,
+.experience .description {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 5px;
+}
+
+.experience .link {
+  z-index: 100;
+  font-size: 16px;
+  text-decoration: none;
+  color: $orange;
+  i {
+    margin-right: .5em;
+  }
+}
+
+@media (max-width: 992px) {
+  .experience .piece {
+    flex-direction: column;
+  }
+
+  .experience .piece > div {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  .experience .piece > div:first-of-type {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    > div:first-of-type { margin-right: 24px; }
+  }
+}

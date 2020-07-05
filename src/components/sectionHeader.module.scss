@@ -1,0 +1,13 @@
+@import "../colors";
+
+.header {
+  margin: 24px;
+}
+
+.header .title {
+  color: $grey-text;
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: 0.6px;
+  text-align: center;
+}

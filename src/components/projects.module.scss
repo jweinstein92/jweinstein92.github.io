@@ -1,0 +1,73 @@
+@import "../colors";
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.projects .image-container {
+  margin: 0 24px;
+  position: relative;
+  text-align: left;
+}
+
+.projects .image-container img {
+  backface-visibility: hidden;
+  display: block;
+  height: auto;
+  max-width: 300px;
+  opacity: 1;
+  transition: .5s ease;
+}
+
+.projects .image-container .overlay {
+  -ms-transform: translate(-50%, -50%);
+  background-color:  rgba(255, 152, 0, .9);
+  color: white;
+  height: 100%;
+  left: 50%;
+  opacity: 0;
+  overflow: scroll;
+  padding: 24px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: .5s ease;
+  width: 100%;
+}
+
+.projects .image-container .overlay .title {
+  font-size: 24px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.projects .image-container .overlay .description {
+  font-size: 16px;
+  padding: 12px 0;
+}
+
+.projects .image-container .overlay .link {
+  text-decoration: none;
+  color: white;
+  i { margin-right: 12px; }
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+@media (max-width: 992px) {
+  .projects {
+    flex-direction: column;
+  }
+
+  .projects .image-container {
+    margin-bottom: 24px;
+  }
+
+  .projects img {
+    max-width: 100% !important;
+  }
+}
