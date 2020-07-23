@@ -37,7 +37,7 @@ function Welcome() {
         </div>
         <div className={styles.table}>
           <span>Resume:</span>
-          <span className={styles.resume}><a href="/Joshua%20Weinstein.pdf" target="_blank" title="Resume"><i className="fa fa-file-text" /></a></span>
+          <span className={styles.resume}><a href="/Joshua_Weinstein.pdf" target="_blank" title="Resume"><i className="fa fa-file-text" /></a></span>
         </div>
       </div>
     </div>

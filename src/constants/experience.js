@@ -18,7 +18,7 @@ export default [
   },
   {
     company: "Booksmart Touring / Daysheets",
-    date: "June 2015 - Present",
+    date: "June 2014 - Present",
     title: "Co-founder/Lead UI Engineer/Advisor",
     description: `I co-founded a company with two friends based around helping manage the hectic life on the road of
       touring musicians. Starting from the ground up, I helped determine the main technologies we would
