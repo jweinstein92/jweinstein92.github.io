@@ -2,23 +2,36 @@ export default [
   {
     company: "Flashpoint",
     date: "October 2018 - Present",
-    title: "Software Engineer II",
-    description: `Flashpoint is a cyber intelligence organization which handles a number of areas from cyber security,
-      threat analysis, terrorism, fraud mitigation, insider threats, and other illegal activity found on the deep and
-      dark web. I have had the privilege to work in a very interesting space with incredibly bright coworkers using
-      advanced technologies. Working in a small group of frontend engineers, I am one of the maintainers of
-      Flashpoint's core platform codebase. I have worked on many features to enhance the <b>React</b> platform with a
-      focus on UI/UX to make a user's experience more successful. This has included redesigning and implementing a cleaner
-      navigation and search experience, display ingested media from chat rooms with various filters for actionable responses,
-      redesigning analytics dashboards to be more digestible and appealing, and providing simple interfaces to test
-      various API integrations for their systems. I have touched every aspect of the platform, work with
-      multiple teams, handle the collection of user metrics, triage issues, lead aspects of our agile development cycle,
-      among many other responsibilites.`,
-    links: [{ href: "https://flashpoint-intel.com", label: "Flashpoint" }],
+    title: "Senior Software Engineer II",
+    description: `Flashpoint is a cyber intelligence organization working across a wide range of areas from cyber security,
+      threat analysis, terrorism, fraud mitigation, insider threats, and other illicit activity found on the deep and
+      dark web. I've had the privilege of working in a uniquely challenging space alongside incredibly talented
+      colleagues and modern technologies. As part of a small but impactful team of frontend engineers, I help maintain
+      Flashpoint's core platform and contribute to the evolution of our cross-product <b>React</b> codebase.<br /><br />
+      
+      My work centers on building intuitive, reliable, and scalable user experiences. I manage and maintain our shared
+      <b>React component library</b>, ensuring consistency with our <b>Design System</b> across multiple products. I've led efforts
+      to design and implement complex interfaces such as our Investigation AI Workspace, which supports user chat,
+      suggested prompts, and custom report generation. I also collaborate across the organization to strengthen platform
+      usability i.e. improving performance, refining UI patterns, and making data more accessible for our users.<br /><br />
+
+      Beyond feature development, I take an active role in shaping engineering practices and product direction. This includes
+      partnering closely with Product and Design on requirements and technical documentation, driving end-to-end delivery
+      from development through <b>Cypress testing</b> and production deployment, and establishing frontend standards informed by user-behavior
+      metrics. I regularly present new functionality to engineering and product teams, assist teammates through code review and agile
+      ceremonies, and serve on an AI Governance working group to help identify safe, effective AI tooling and workflow enhancements.<br /><br />
+
+      While my primary focus is frontend engineering, I also contribute backend support when needed, building <b>RESTful APIs</b> with <b>Python</b>,
+      <b>Flask</b>, and <b>Node.js</b>. For one such project, I developed an internal API wrapper for the Looker API in Python, enabling us to surface Looker
+      maintained data directly within our platform using our own Design System and React component library. This allows us to deliver
+      a consistent, unified user interface while preserving the full functionality and insight users expect from Looker dashboards.
+      Across all of these efforts, my goal remains the same: to create thoughtful, reliable interfaces and tools that help users work
+      more efficiently in a high-stakes environment.<br /><br />`,
+    links: [{ href: "https://flashpoint.io", label: "Flashpoint" }],
   },
   {
     company: "Booksmart Touring / Daysheets",
-    date: "June 2014 - Present",
+    date: "June 2014 - July 2020",
     title: "Co-founder/Lead UI Engineer/Advisor",
     description: `I co-founded a company with two friends based around helping manage the hectic life on the road of
       touring musicians. Starting from the ground up, I helped determine the main technologies we would

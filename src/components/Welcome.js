@@ -2,11 +2,6 @@ import React from 'react';
 import styles from "./welcome.module.scss";
 
 function Welcome() {
-  const birthday = Date.parse("1992-12-07");
-  const ageDifMs = Date.now() - birthday;
-  const ageDate = new Date(ageDifMs);
-  const age = Math.abs(ageDate.getUTCFullYear() - 1970);
-
   return (
     <div className={styles.welcome}>
       <div className={styles.intro}>
@@ -22,10 +17,6 @@ function Welcome() {
         <div className={styles.table}>
           <span>Name:</span>
           <span>Josh Weinstein</span>
-        </div>
-        <div className={styles.table}>
-          <span>Age:</span>
-          <span>{age}</span>
         </div>
         <div className={styles.table}>
           <span>Location:</span>

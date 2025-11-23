@@ -5,6 +5,7 @@ import SectionHeader from './components/SectionHeader';
 import Welcome from "./components/Welcome";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
               <span>Software | Web | Travel</span>
             </div>
           </div>
+          <Skills />
         </div>
         <div className={styles.sections}>
           <div className={styles['section-container']}>

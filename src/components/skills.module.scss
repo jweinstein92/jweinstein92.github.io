@@ -1,0 +1,26 @@
+.skills {
+  z-index: 2;
+}
+
+.frontend {
+  display: flex;
+  gap: 8px;
+  padding: 12px 0;
+  justify-content: center;
+}
+
+.backend {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.skill {
+  font-size: 12px;
+  padding: 4px 12px;
+  background: #fff;
+  border-radius: 15px;
+  font-weight: 500;
+  color: #000;
+  border: 1px solid #e2e6ea;
+}
